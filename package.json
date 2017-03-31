@@ -1,6 +1,6 @@
 {
   "name": "git-file-downloader",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Git File Downloader is a CLI tool to download a raw file from Github or Gitlab.",
   "main": "index.js",
   "scripts": {
