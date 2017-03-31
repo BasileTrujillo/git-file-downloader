@@ -1,6 +1,18 @@
 # Git File Downloader
 
+[![build status](https://gitlab.com/BasileTrujillo/git-file-downloader/badges/master/build.svg)](https://gitlab.com/BasileTrujillo/git-file-downloader/commits/master)
+[![NPM Badge](https://img.shields.io/npm/v/git-file-downloader.svg)](https://www.npmjs.com/package/git-file-downloader)
+[![coverage report](https://img.shields.io/badge/link-coverage-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/coverage)
+[![JsDoc report](https://img.shields.io/badge/link-jsdoc-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/jsdoc)
+[![Plato report](https://img.shields.io/badge/link-plato-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/plato)
+
 Git File Downloader is a CLI tool to download a raw file from Github or Gitlab.
+
+## Install
+
+```bash
+    $ npm i -g git-file-downloader
+```
 
 ## Usage
 
@@ -42,6 +54,12 @@ Git File Downloader is a CLI tool to download a raw file from Github or Gitlab.
 ```
 
 ## Use this package in your own project
+
+```bash
+    $ npm i --save git-file-downloader
+    # Or
+    $ yarn add git-file-downloader
+```
 
 ```js
 const GitFileDownloader = require('git-file-downloader');
