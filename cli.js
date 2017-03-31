@@ -33,7 +33,7 @@ program
         'By default, it will place the single file inside output directory.'
     )
     .option(
-        '-b, --branch <path>',
+        '-b, --branch <name>',
         'Set the branch name. Default to "master".',
         'master'
     )

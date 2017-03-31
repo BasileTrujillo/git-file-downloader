@@ -45,7 +45,6 @@ lint:
     - yarn lint
   tags:
     - docker
-  allow_failure: true
   except:
     - develop
     - master
