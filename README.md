@@ -1,10 +1,10 @@
 # Git File Downloader
 
-[![build status](https://gitlab.com/BasileTrujillo/git-file-downloader/badges/master/build.svg)](https://gitlab.com/BasileTrujillo/git-file-downloader/commits/master)
+[![build status](https://gitlab.com/L0gIn/git-file-downloader/badges/master/build.svg)](https://gitlab.com/L0gIn/git-file-downloader/commits/master)
 [![NPM Badge](https://img.shields.io/npm/v/git-file-downloader.svg)](https://www.npmjs.com/package/git-file-downloader)
-[![coverage report](https://img.shields.io/badge/link-coverage-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/coverage)
-[![JsDoc report](https://img.shields.io/badge/link-jsdoc-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/jsdoc)
-[![Plato report](https://img.shields.io/badge/link-plato-green.svg)](https://basiletrujillo.gitlab.io/git-file-downloader/plato)
+[![coverage report](https://img.shields.io/badge/link-coverage-green.svg)](https://l0gin.gitlab.io/git-file-downloader/coverage)
+[![JsDoc report](https://img.shields.io/badge/link-jsdoc-green.svg)](https://l0gin.gitlab.io/git-file-downloader/jsdoc)
+[![Plato report](https://img.shields.io/badge/link-plato-green.svg)](https://l0gin.gitlab.io/git-file-downloader/plato)
 
 Git File Downloader is a CLI tool to download a raw file from Github or Gitlab.
 
@@ -44,13 +44,13 @@ Git File Downloader is a CLI tool to download a raw file from Github or Gitlab.
 ### Download a file from a public github repository
 
 ```bash
-    $ gfd BasileTrujillo/devops-toolbox examples/nodejs-serverless.dotbox.json
+    $ gfd L0gIn/devops-toolbox examples/nodejs-serverless.dotbox.json
 ```
 
 ### Download a file from a public gitlab repository
 
 ```bash
-    $ gfd -p gitlab BasileTrujillo/git-file-downloader README.md
+    $ gfd -p gitlab L0gIn/git-file-downloader README.md
 ```
 
 ## Use this package in your own project
@@ -66,7 +66,7 @@ const GitFileDownloader = require('git-file-downloader');
 
 const downloader = new GitFileDownloader({
       provider: 'gitlab',
-      repository: 'BasileTrujillo/git-file-downloader',
+      repository: 'L0gIn/git-file-downloader',
       branch: 'master',
       file: 'README.md',
       output: '.'
