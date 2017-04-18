@@ -1,8 +1,8 @@
 # Git File Downloader
 
-[![build status](https://gitlab.com/L0gIn/git-file-downloader/badges/master/build.svg)](https://gitlab.com/L0gIn/git-file-downloader/commits/master)
 [![NPM Badge](https://img.shields.io/npm/v/git-file-downloader.svg)](https://www.npmjs.com/package/git-file-downloader)
-[![coverage report](https://img.shields.io/badge/link-coverage-green.svg)](https://l0gin.gitlab.io/git-file-downloader/coverage)
+[![build status](https://gitlab.com/L0gIn/git-file-downloader/badges/master/build.svg)](https://gitlab.com/L0gIn/git-file-downloader/commits/master)
+[![coverage report](https://gitlab.com/L0gIn/git-file-downloader/badges/master/coverage.svg)](https://l0gin.gitlab.io/git-file-downloader/coverage)
 [![JsDoc report](https://img.shields.io/badge/link-jsdoc-green.svg)](https://l0gin.gitlab.io/git-file-downloader/jsdoc)
 [![Plato report](https://img.shields.io/badge/link-plato-green.svg)](https://l0gin.gitlab.io/git-file-downloader/plato)
 
