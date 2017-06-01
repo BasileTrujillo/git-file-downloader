@@ -36,7 +36,8 @@
         "useNyc": true,
         "nycReporters": [
           "text-summary",
-          "html"
+          "html",
+          "lcov"
         ]
       }
     ]
