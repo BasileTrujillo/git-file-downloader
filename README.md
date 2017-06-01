@@ -3,6 +3,7 @@
 [![NPM Badge](https://img.shields.io/npm/v/git-file-downloader.svg)](https://www.npmjs.com/package/git-file-downloader)
 [![build status](https://gitlab.com/L0gIn/git-file-downloader/badges/master/build.svg)](https://gitlab.com/L0gIn/git-file-downloader/commits/master)
 [![coverage report](https://gitlab.com/L0gIn/git-file-downloader/badges/master/coverage.svg)](https://l0gin.gitlab.io/git-file-downloader/coverage)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8c815e6bac0e43fb9c08fd66cf49e652)](https://www.codacy.com/app/BasileTrujillo/git-file-downloader?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BasileTrujillo/git-file-downloader&amp;utm_campaign=Badge_Grade)
 [![JsDoc report](https://img.shields.io/badge/link-jsdoc-green.svg)](https://l0gin.gitlab.io/git-file-downloader/jsdoc)
 [![Plato report](https://img.shields.io/badge/link-plato-green.svg)](https://l0gin.gitlab.io/git-file-downloader/plato)
 
