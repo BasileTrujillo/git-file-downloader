@@ -1,4 +1,4 @@
-image: node:latest
+image: node:7.6
 
 cache:
   paths:
@@ -43,7 +43,6 @@ uTests:node-4.8:
   image: node:4.8
 
 Lint & Security checks:
-  image: node:latest
   stage: test
   script:
     - npm i
@@ -56,7 +55,6 @@ Lint & Security checks:
     - tags
 
 Check Package Version:
-  image: node:latest
   stage: test
   script:
     - npm i
@@ -69,7 +67,6 @@ Check Package Version:
     - tags
 
 Build Doc & Analysis:
-  image: node:latest
   stage: build
   script:
     - npm i
@@ -105,6 +102,13 @@ pages:
     - docker
   only:
     - master
+
+Codacy Coverage Publish:
+  stage: deploy
+  script:
+    - yarn codacy-coverage
+  tags:
+    - docker
 
 publish:
   stage: deploy
