@@ -30,6 +30,10 @@ uTests:node-latest:
     paths:
       - coverage/
 
+uTests:node-7.6:
+  <<: *test_definition
+  image: node:7.6
+
 uTests:node-6.10:
   <<: *test_definition
   image: node:6.10
